@@ -34,11 +34,11 @@ Sample Output
 public class ArraySum {
 
     public static void main(String[] args) {
-        System.out.println("THis is sample program for Finding the Array Size");
+        //System.out.println("THis is sample program for Finding the Array Size");
         Scanner sc= new Scanner(System.in);    //System.in is a standard input stream
-        System.out.print("Enter first number- ");
+        //System.out.print("Enter first number- ");
         int a= sc.nextInt();
-        System.out.println("input integer value is "+a);
+        //System.out.println("input integer value is "+a);
         int[] size = new int[a];
         for(int i=0;i<a;i++){
             size[i] = sc.nextInt();
@@ -47,6 +47,6 @@ public class ArraySum {
         for(int i=0;i<size.length;i++){
             sum = sum +size[i];
         }
-        System.out.println(" The Summation is "+sum);
+        System.out.println(sum);
     }
 }
