@@ -1,9 +1,6 @@
 package CoreJava;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 
 public class NullCheck {
     public static void main(String[] args) {
@@ -25,5 +22,12 @@ public class NullCheck {
         for(String b : col){
             System.out.println("first item"+s);
         }*/
+
+        int o= 1-2;
+        System.out.println(o);
+        Map<Integer,Integer> n = new HashMap<Integer,Integer>();
+        n.put(1,o);
+        n.entrySet().stream().forEach(e ->
+                System.out.println("Key : " + e.getKey() + " value : " + e.getValue()));
     }
 }
