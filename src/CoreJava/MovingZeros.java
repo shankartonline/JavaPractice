@@ -12,9 +12,9 @@ public class MovingZeros {
                 nums[index++] = nums[i];
             }
         }
-        for(int i = index;i < nums.length; i++){
+        /*for(int i = index;i < nums.length; i++){
             nums[i] = 0;
-        }
+        }*/
         System.out.println(Arrays.toString(nums));
     }
 

@@ -1,6 +1,7 @@
 package CoreJava;
 
 public class ModelSample {
+    static int samples = 45;
     public int getSample() {
         return sample;
     }

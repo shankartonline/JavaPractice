@@ -19,7 +19,9 @@ public class Pascal {
             }
             tempRow.add(1);
             triangle.add(tempRow);
+            tempRow.forEach(p -> System.out.print(" "+p));
+            System.out.println("");
         }
-        triangle.forEach(s -> s.forEach(p -> System.out.println(" "+p)));
+
     }
 }

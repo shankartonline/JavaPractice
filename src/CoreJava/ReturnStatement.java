@@ -5,9 +5,9 @@ public class ReturnStatement {
         methodReturn();
     }
     static void methodReturn(){
-        if(false){
+        if(true)
             return;
-        }
+
         System.out.println("this is printed");
            // return 10;
 

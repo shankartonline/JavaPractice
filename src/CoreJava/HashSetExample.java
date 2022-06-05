@@ -5,6 +5,9 @@ import java.util.Set;
 
 public class HashSetExample {
     public static void main(String[] args) {
+        Set as = new HashSet();
+        as.add("a");
+        as.add("a");
         Set<Integer> hs = new HashSet<Integer>();
         hs.add(1);
         hs.add(2);
@@ -13,7 +16,7 @@ public class HashSetExample {
         hs.add(3);
         long start = System.currentTimeMillis();
 
-            hs.stream().forEach(s -> System.out.println());
+            hs.stream().forEach(s -> System.out.println(s));
 
 
         long end = System.currentTimeMillis();
