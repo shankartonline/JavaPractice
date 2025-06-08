@@ -1,8 +1,11 @@
+/*
 package Manual.linkedlist;
+
+import java.lang.classfile.components.ClassPrinter;
 
 public class LinkedListMain {
     public static void main(String[] args) {
-        Node f = new Node(456);
+        ClassPrinter.Node f = new Node(456);
         Node s = new Node(123,f);
         Node news = new Node(543);
         Node.addNode(s,news);
@@ -13,3 +16,4 @@ public class LinkedListMain {
 
     }
 }
+*/
